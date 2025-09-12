@@ -1,5 +1,15 @@
 @import 'tailwindcss';
 
 :root {
-  --color-bg: 
+  --color-blue-950: #202733;
+  --color-blue-900: #313A48;
+  --color-blue-600: #4F5D74;
+  --color-blue-200: #CEE3E9;
+  --color-green-300: #53FFAA;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+
+  @apply bg-[var(--color-blue-900)]
 }
