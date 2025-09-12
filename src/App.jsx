@@ -17,13 +17,17 @@ const App = () => {
   }, []);
 
   return (
-    <div>
+    <div className="max-w-md mx-auto">
       <div>
-        <p>{adviceData.id}</p>
+        <p>Advice #{adviceData.id || "..."} </p>
       </div>
 
       <div>
         <p> {adviceData.advice || "Loading advice..."} </p>
+      </div>
+
+      <div>
+        <button onClick={fetchAdvice}>Get Advice </button>
       </div>
     </div>
   );
