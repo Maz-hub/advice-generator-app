@@ -38,9 +38,17 @@ const App = () => {
         </div>
 
         <div>
-          <button onClick={fetchAdvice}>Get Advice </button>
+          <button onClick={fetchAdvice} className="btn">
+            <img
+              className="shrink-0"
+              src="img//icon-dice.svg"
+              alt="Dice button"
+            />
+          </button>
         </div>
       </div>
+
+      
     </div>
   );
 };

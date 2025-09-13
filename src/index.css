@@ -15,7 +15,7 @@ body {
 }
 
 .card {
-  @apply bg-[var(--color-blue-900)] p-12 flex flex-col justify-center items-center rounded-xl mx-4 w-[540px]
+  @apply relative bg-[var(--color-blue-900)] pt-12 px-12 pb-9 flex flex-col justify-center items-center rounded-xl mx-4 w-[540px] shadow-lg;
 }
 
 .adviceID {
@@ -24,4 +24,8 @@ body {
 
 .adviceData {
   @apply font-extrabold text-[var(--color-blue-200)] text-[28px] leading-[135%] tracking-[-0.3px] text-center;
+}
+
+.btn {
+  @apply absolute left-1/2 bottom-0 -translate-x-1/2 translate-y-1/2 w-[64px] h-[64px] rounded-full grid place-items-center bg-[var(--color-green-300)] shadow-lg cursor-pointer;
 }
