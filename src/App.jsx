@@ -17,17 +17,19 @@ const App = () => {
   }, []);
 
   return (
-    <div className="max-w-md mx-auto">
-      <div>
-        <p>Advice #{adviceData.id || "..."} </p>
-      </div>
+    <div className="mx-auto h-screen flex flex-col justify-center items-center">
+      <div className="card">
+        <div>
+          <p className="adviceID">Advice #{adviceData.id || "..."} </p>
+        </div>
 
-      <div>
-        <p> {adviceData.advice || "Loading advice..."} </p>
-      </div>
+        <div>
+          <p> {adviceData.advice || "Loading advice..."} </p>
+        </div>
 
-      <div>
-        <button onClick={fetchAdvice}>Get Advice </button>
+        <div>
+          <button onClick={fetchAdvice}>Get Advice </button>
+        </div>
       </div>
     </div>
   );

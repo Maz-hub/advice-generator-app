@@ -11,5 +11,13 @@
 body {
   font-family: 'Manrope', sans-serif;
 
-  @apply bg-[var(--color-blue-900)]
+  @apply bg-[var(--color-blue-950)]
+}
+
+.card {
+  @apply bg-[var(--color-blue-900)] p-12 flex flex-col justify-center items-center
+}
+
+.adviceID {
+  @apply text-[var(--color-green-300)] text-[13px] leading-[135%] tracking-[4px];
 }
