@@ -23,5 +23,5 @@ body {
 }
 
 .adviceData {
-  @apply font-extrabold text-[var(--color-blue-200)] text-[28px] leading-[135%] tracking-[-0.3px] text-center mb-10;
+  @apply font-extrabold text-[var(--color-blue-200)] text-[28px] leading-[135%] tracking-[-0.3px] text-center;
 }

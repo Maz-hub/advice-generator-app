@@ -30,6 +30,14 @@ const App = () => {
         </div>
 
         <div>
+          <img
+            className="shrink-0 my-10"
+            src="img//pattern-divider-desktop.svg"
+            alt="Pattern devider"
+          />
+        </div>
+
+        <div>
           <button onClick={fetchAdvice}>Get Advice </button>
         </div>
       </div>
