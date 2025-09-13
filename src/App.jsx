@@ -24,7 +24,9 @@ const App = () => {
         </div>
 
         <div>
-          <p> {adviceData.advice || "Loading advice..."} </p>
+          <p className="adviceData">
+            "{adviceData.advice || "Loading advice..."}"
+          </p>
         </div>
 
         <div>
