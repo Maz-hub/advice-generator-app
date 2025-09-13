@@ -47,8 +47,6 @@ const App = () => {
           </button>
         </div>
       </div>
-
-      
     </div>
   );
 };
