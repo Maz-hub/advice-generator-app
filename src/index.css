@@ -15,10 +15,9 @@ body {
 }
 
 .card {
-  @apply w-full relative bg-[var(--color-blue-900)] pt-12 px-12 pb-9 flex flex-col justify-center items-center rounded-xl max-w-[540px] shadow-lg;
-
-  @apply max-w-[90%] sm:max-w-[540px];
+  @apply relative bg-[var(--color-blue-900)] pt-10 pr-6 pl-6 pb-9 md:pt-12 md:pr-12 md:pl-12 md:pb-9 flex flex-col justify-center items-center rounded-xl shadow-lg w-full max-w-[540px] mx-4;
 }
+
 
 .adviceID {
   @apply text-[var(--color-green-300)] text-[13px] leading-[135%] tracking-[4px] font-extrabold mb-6 text-center;

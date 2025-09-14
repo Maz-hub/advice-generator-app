@@ -17,7 +17,7 @@ const App = () => {
   }, []);
 
   return (
-    <div className="mx-auto h-screen flex flex-col justify-center items-center">
+    <div className="min-h-svh flex flex-col items-center justify-center px-4">
       <div className="card">
         <div>
           <p className="adviceID">Advice #{adviceData.id || "..."} </p>
@@ -32,12 +32,12 @@ const App = () => {
         <div>
           <img
             className="shrink-0 my-6 sm:my-10 w-full hidden sm:block"
-            src="img/pattern-divider-desktop.svg"
+            src="/img/pattern-divider-desktop.svg"
             alt="Pattern divider desktop"
           />
           <img
             className="shrink-0 my-6 w-full sm:hidden"
-            src="img/pattern-divider-mobile.svg"
+            src="/img/pattern-divider-mobile.svg"
             alt="Pattern divider mobile"
           />
         </div>
@@ -46,7 +46,7 @@ const App = () => {
           <button onClick={fetchAdvice} className="btn">
             <img
               className="shrink-0"
-              src="img//icon-dice.svg"
+              src="/img/icon-dice.svg"
               alt="Dice button"
             />
           </button>
