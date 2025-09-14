@@ -31,9 +31,14 @@ const App = () => {
 
         <div>
           <img
-            className="shrink-0 my-10"
-            src="img//pattern-divider-desktop.svg"
-            alt="Pattern devider"
+            className="shrink-0 my-6 sm:my-10 w-full hidden sm:block"
+            src="img/pattern-divider-desktop.svg"
+            alt="Pattern divider desktop"
+          />
+          <img
+            className="shrink-0 my-6 w-full sm:hidden"
+            src="img/pattern-divider-mobile.svg"
+            alt="Pattern divider mobile"
           />
         </div>
 
